@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <!-- Meta tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Título -->
+        <title>Multimedidor - Tensão e Corrente</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="/style.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!-- Firebase -->
+        <script src = "https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+        <script src = "https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <!-- Barra de navegação -->
+        <header>
+            <a class="logomarca" href="#inicio">Multimedidor</a>
+            <div class="fas fa-bars" id="icone-menu"></div>
+
+            <ul class="barra-de-navegacao">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#medicoes">Medições</a></li>
+            </ul>
+        </header>
+
+        <!-- Início -->
+        <section class="inicio" id="inicio">
+            <div class="texto-inicio">
+                <h1>Multimedidor de <span>Tensão</span> e <span>Corrente</span></h1>
+                <h2>Atualizações em tempo real</h2>
+                <p>Multimedidor é um equipamento eletrônico capaz de realizar diversas medições em um circuito elétrico. Um multimedidor possui a função de medições instantâneas e acumulativas.</p>
+            </div>
+            <div class="imagem-inicio">
+                <img src="/images/image-electrician.png" alt="Pessoa pensando envolta por gráficos e tecnologias.">
+            </div>
+        </section>
+
+        <!-- Medições -->
+        <section class="medicoes" id="medicoes">
+            <div class="subtitulo">
+                <h1>Medições</h1>
+            </div>
+            <div class="conteudo-medicoes">
+                <div class="barras-de-medicoes">
+                    <div class="texto-medicoes">
+                        <p>Listadas abaixo as medições capturadas em tempo real.</p>
+                    </div>
+                    <div class="caixa-de-medicoes">
+                        <i class="fa fa-bolt"><h3>Tensão</h3></i>
+                        <div>
+                            <span id="tensao-in"></span> V
+                        </div>
+                        <div class="porcentagem-barra barra-tensao"></div>
+                    </div>
+                    <div class="caixa-de-medicoes">
+                        <i class="fa fa-bolt"><h3>Corrente</h3></i>
+                        <div>
+                            <span id="corrente-in">0.0</span> A
+                        </div>
+                        <div class="porcentagem-barra barra-corrente"></div>
+                    </div>
+                    <div class="caixa-de-medicoes">
+                        <i class="fa fa-bolt"><h3>Potência</h3></i>
+                        <div>
+                            <span id="potencia-in">0.0</span> W
+                        </div>
+                        <div class="porcentagem-barra barra-potencia"></div>
+                    </div>
+                    <div class="caixa-de-medicoes">
+                        <i class="fa fa-bolt"><h3>Energia</h3></i>
+                        <div>
+                            <span id="energia-in">0.0</span> Wh
+                        </div>
+                        <div class="porcentagem-barra barra-energia"></div>
+                    </div>
+                    <div class="caixa-de-medicoes">
+                        <i class="fa fa-bolt"><h3>Frequência</h3></i>
+                        <div>
+                            <span id="frequencia-in">0.0</span> Hz
+                        </div>
+                        <div class="porcentagem-barra barra-frequencia"></div>
+                    </div>
+                    <div class="caixa-de-medicoes">
+                        <i class="fa fa-bolt"><h3>Fator de Potência</h3></i>
+                        <div>
+                            <span id="fator-in">0.0</span> kVAr
+                        </div>
+                        <div class="porcentagem-barra barra-fator-de-potencia"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Direitos Autorais -->
+        <div class="direitos-autorais">
+            <p>&#169; Instituto Federal de Goiás</p>
+        </div>
+
+        <!-- JavaScript -->
+        <script src="/script.js"></script>
+
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/c1a3e9b7cb.js" crossorigin="anonymous"></script>
+    </body>
+</html>
