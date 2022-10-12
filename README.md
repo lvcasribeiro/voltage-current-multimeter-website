@@ -8,8 +8,8 @@ These codes aim to structure a website page to interface electrical quantities m
 
 Below are screenshots of the main page and the measurement table, respectively, in mobile version:
 
-###### Main Page in Mobile Version:ㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤㅤMeasurement Table in Mobile Version:
-![mobile-1](https://user-images.githubusercontent.com/96185134/195383726-0f502b7a-9113-47ee-ab2a-ce68557297e3.jpg)ㅤㅤ![mobile-2](https://user-images.githubusercontent.com/96185134/195383739-1642d160-ed9c-4cfb-bea6-4c2194823e20.jpg)
+###### Main Page in Mobile Version:ㅤㅤㅤㅤㅤㅤㅤㅤㅤ  ㅤㅤㅤㅤㅤMeasurement Table in Mobile Version:
+![mobile-1](https://user-images.githubusercontent.com/96185134/195383726-0f502b7a-9113-47ee-ab2a-ce68557297e3.jpg)ㅤㅤㅤㅤ![mobile-2](https://user-images.githubusercontent.com/96185134/195383739-1642d160-ed9c-4cfb-bea6-4c2194823e20.jpg)
 
 ##
 
